@@ -41,7 +41,7 @@ int main()
 		//向客户端发送数据
 		csock = send(csock, msgbuf, strlen(msgbuf) + 1, 0);
 		if (csock == SOCKET_ERROR)
-			cout << "发送失败" << endl;
+			cout << "发送消息失败" << endl;
 		else
 			cout << "发送消息成功" << endl;
 	}
